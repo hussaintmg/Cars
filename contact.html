@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact - Dream Cars</title>
+    <style>
+      body {
+        background: #121212;
+        color: white;
+        font-family: Arial, sans-serif;
+        margin: 0;
+      }
+      .navbar {
+        background: #1e1e1e;
+        padding: 20px;
+      }
+      h1 {
+        text-align: center;
+        margin: 40px 0;
+      }
+      .contact-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        margin: auto;
+        padding: 20px;
+        gap: 40px;
+      }
+      .contact-form,
+      .contact-info {
+        background: #1e1e1e;
+        padding: 30px;
+        border-radius: 10px;
+        flex: 1;
+        min-width: 300px;
+      }
+      .contact-form input,
+      .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+      .contact-form button {
+        background: #e74c3c;
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      .contact-info p {
+        margin: 10px 0;
+        font-size: 16px;
+      }
+      .footer {
+        background: #1e1e1e;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <img
+        src="https://dynamic.design.com/asset/logo/8c7214d3-8a1e-4376-a744-a74a33cfef3c/logo-search-grid-2x?logoTemplateVersion=1&v=638448783983930000&text=cars&layout=auto"
+        alt="Car Logo"
+        style="height: 40px"
+      />
+      <a
+        href="./index.html"
+        style="color: white; margin-left: 30px; text-decoration: none"
+        >Home</a
+      >
+      <a
+        href="./cars.html"
+        style="color: white; margin-left: 20px; text-decoration: none"
+        >Cars</a
+      >
+      <a
+        href="./about.html"
+        style="color: white; margin-left: 20px; text-decoration: none"
+        >About</a
+      >
+      <a
+        href="./contact.html"
+        style="color: white; margin-left: 20px; text-decoration: none"
+        >Contact</a
+      >
+    </div>
+
+    <h1>Contact Us</h1>
+
+    <div class="contact-container">
+      <div class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea rows="5" placeholder="Your Message"></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <p>
+          Email:
+          <a href="mailto:hussaintmg@gmail.com" style="color: white"
+            >hussaintmg@gmail.com</a
+          >
+        </p>
+        <p>
+          WhatsApp:
+          <a
+            href="https://wa.me/923191634446"
+            target="_blank"
+            style="color: white"
+            >+92 319 1634446</a
+          >
+        </p>
+        <p>Location: Pakistan</p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>© 2025 Dream Cars. All Rights Reserved.</p>
+    </div>
+  </body>
+</html>
